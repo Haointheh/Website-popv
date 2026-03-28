@@ -1,0 +1,105 @@
+.position{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("for project/6361533.webp");
+}
+
+
+.registerbg{
+    width: 500px;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid rgb(227, 160, 160);
+}
+
+.registerbg h1{
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(113, 86, 170);
+}
+
+.registerbg .input-box{
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+}
+
+.registerbg .form{
+    border-radius: 20px;
+}
+
+.input-box input{
+    width:70%;
+    height: 70%;
+    background: transparent; 
+   
+}
+
+.input-box input::placeholder{
+    color: rgb(21, 1, 23);
+    text-shadow: 2px 2px 3px rgb(206, 245, 220);
+
+
+}
+
+
+.loginbg {/*you forgot the . before the name so it didnt recognise it*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("for project/_MG_6254.JPG"); /*background image*/
+    background-size: cover;           /*things you want your background image to do*/
+    background-position: center;
+} 
+
+form {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 20px; 
+    border: 1px solid #ccc;/*border color and types*/
+    background-color: rgba(255, 255, 255, 0.8);/* Adjust the opacity value */
+}
+
+form h1 {
+    margin-bottom: 20px;/* more spacious*/
+    text-align: center;
+}
+
+.input-box {                            /*more spacious*/
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.input-box input {                  /*spacious and more "pretier"*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-box box-icon {
+    position: absolute;
+    top: 50%;/* Moves the top edge of the box-icon element*/
+    transform: translateY(-50%);/* Vertically centers the box-icon element using the translateY transform by moving it upward by 50% of its own height */
+    right: 10px;
+    color: #333;
+}
+
+.remember-forget {
+    margin-bottom: 20px;/*spacious and more "pretier"*/
+}
+
+.loginsubmit {
+    margin-top: 10px;/*spacious and more "pretier"*/
+}
+
+.remember-forget {
+    margin-bottom: 20px;/*spacious and more "pretier"*/
+}

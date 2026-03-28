@@ -1,0 +1,50 @@
+.loginSubmitbtn{
+    background-color: #e1c0c0;
+    font-weight: bold;     
+    color:rgb(13, 17, 45);     /*color for text*/
+    border-style: solid;
+    border-color: rgb(238, 232, 237);
+    border-width: 2px;
+    height: 35px;
+    width:90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginSubmitbtn:hover{
+   background-color: rgb(74, 111, 143);
+    transition: background-color 1s, color 1s;  
+   
+}
+
+.ordernow{
+    background-color: #a46f73;
+    box-shadow: #e1c0c0;
+    color:rgb(255, 255, 255);     /*color for text*/
+    border: green;
+    border-width: 101px;
+    height: 36px;
+    width:100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ordernow:hover{
+    background-color: #e1c0c0;
+}
+
+.abutton{
+    background-color: #e1c0c0;
+    font-weight: bold;     
+    color:rgb(13, 17, 45);     /*color for text*/
+    border-style: solid;
+    border-color: rgb(238, 232, 237);
+    border-width: 2px;
+    height: 35px;
+    width:90px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+

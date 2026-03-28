@@ -1,0 +1,37 @@
+
+.menus{
+    justify-content:center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.icmenu{
+    background: rgb(248, 243, 252);
+    margin: 20px;
+    height: 800px;
+    width: 500px;
+    border: 5px solid rgb(216, 138, 138);
+    float: left;
+}
+.icmenu_img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
+
+.cakemenu{
+    background: rgb(241, 234, 248);
+    margin: 20px;
+    height: 800px;
+    width: 500px;
+    border: 5px solid white;
+    float: right;
+}
+.cakemenu_img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat; 
+}
+
